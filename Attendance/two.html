@@ -1,0 +1,18 @@
+<!-- Dianara Gamos -->
+
+<!DOCTYPE html>
+<html data-ng-app="">
+<head>
+</head>
+<body data-ng-init="names=['John Smith','John Doe','Jane Doe']">
+
+		<input type ="text" data-ng-model="name" />{{name}}
+
+		<ul>
+			<li data-ng-repeat="personName in names">{{personName}}</li>
+		</ul>
+
+    <script src="scripts/angular.min.js"></script>
+</div>
+</body>
+</html>
